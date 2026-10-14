@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Projects – Pravedh Engineering Solutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Pravedh – Shaping What's Next">
+      <img src="images/logo.png" alt="Pravedh – Shaping What's Next">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About Us</a>
+      <div class="dropdown">
+        <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Services <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dropdown-menu">
+          <a href="services.html#residential">Residential Solar</a>
+          <a href="services.html#commercial">Commercial Solar</a>
+          <a href="services.html#industrial">Industrial Solar</a>
+          <a href="services.html#installation">Solar Installation</a>
+          <a href="services.html#amc">AMC &amp; Maintenance</a>
+        </div>
+      </div>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="index.html#pm-surya-ghar">PM Surya Ghar</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <a href="index.html#contact" class="btn btn-orange">
+        Get a Quote
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ PAGE BANNER ============ -->
+<section class="page-hero page-hero--tall">
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span class="here">Projects</span>
+    </nav>
+    <h1>Our Solar <span>Projects</span></h1>
+    <p>A look at the solar systems Pravedh Engineering Solutions has designed and installed for homes, businesses and industries across Tamil Nadu.</p>
+  </div>
+</section>
+
+<!-- ============ STATS STRIP ============ -->
+<section class="pstats-wrap">
+  <div class="container">
+    <div class="pstats">
+      <div class="pstat"><strong>1000+</strong><span>Projects Completed</span></div>
+      <div class="pstat"><strong>1000+</strong><span>Happy Customers</span></div>
+      <div class="pstat"><strong>90%</strong><span>Bill Reduction</span></div>
+      <div class="pstat"><strong>25 Yrs</strong><span>Panel Life Span</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="proj-page">
+  <div class="container">
+
+    <div class="filters" role="tablist" aria-label="Filter projects">
+      <button type="button" class="chip active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+      <button type="button" class="chip" data-filter="residential" role="tab" aria-selected="false">Residential</button>
+      <button type="button" class="chip" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
+      <button type="button" class="chip" data-filter="industrial" role="tab" aria-selected="false">Industrial</button>
+    </div>
+
+    <div class="projects-grid" id="projGrid">
+
+      <!-- 1 -->
+      <article class="project-card" data-cat="residential">
+        <div class="project-media">
+          <span class="project-tag">Residential</span>
+        </div>
+        <div class="project-body">
+          <h3>Rooftop Solar for Home</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Rajapalayam, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>3 kW</strong>System size</span>
+            <span><strong>Rooftop</strong>Type</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="project-card" data-cat="commercial">
+        <div class="project-media">
+          <span class="project-tag">Commercial</span>
+        </div>
+        <div class="project-body">
+          <h3>Solar for Commercial Building</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Virudhunagar, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>25 kW</strong>System size</span>
+            <span><strong>On-grid</strong>Type</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="project-card" data-cat="industrial">
+        <div class="project-media">
+          <span class="project-tag">Industrial</span>
+        </div>
+        <div class="project-body">
+          <h3>Industrial Solar Plant</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Sivakasi, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>100 kW</strong>System size</span>
+            <span><strong>Rooftop</strong>Type</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="project-card" data-cat="residential">
+        <div class="project-media">
+          <span class="project-tag">Residential</span>
+        </div>
+        <div class="project-body">
+          <h3>PM Surya Ghar Home System</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Srivilliputhur, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>5 kW</strong>System size</span>
+            <span><strong>Subsidy</strong>Scheme</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="project-card" data-cat="commercial">
+        <div class="project-media">
+          <span class="project-tag">Commercial</span>
+        </div>
+        <div class="project-body">
+          <h3>School &amp; Institute Solar</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Rajapalayam, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>40 kW</strong>System size</span>
+            <span><strong>On-grid</strong>Type</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="project-card" data-cat="industrial">
+        <div class="project-media">
+          <span class="project-tag">Industrial</span>
+        </div>
+        <div class="project-body">
+          <h3>Factory Rooftop Solar</h3>
+          <p class="project-loc">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            Sivakasi, Tamil Nadu
+          </p>
+          <div class="project-meta">
+            <span><strong>250 kW</strong>System size</span>
+            <span><strong>Rooftop</strong>Type</span>
+          </div>
+          <a href="index.html#contact" class="learn-more">Get a Similar System
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="proj-empty" id="projEmpty" hidden>No projects in this category yet.</p>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="cta">
+  <div class="container">
+    <div class="cta-box">
+      <span class="cta-glow" aria-hidden="true"></span>
+      <svg class="cta-leaf" viewBox="0 0 120 200" aria-hidden="true"><path d="M60 6C20 40 10 100 60 194 110 100 100 40 60 6z" fill="currentColor"/></svg>
+      <div class="cta-text">
+        <div class="cta-eyebrow">Go Solar Today</div>
+        <h2>Want a System Like <span>These?</span></h2>
+        <p>Get a free site assessment, a custom system design and complete help with the PM Surya Ghar subsidy, all from one team.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="index.html#contact" class="btn btn-orange">
+          Get a Free Consultation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        </a>
+        <a href="tel:+910000000000" class="btn btn-call">
+          <span class="cta-phone"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+          <span class="cta-call-txt"><small>Call us now</small>+91 00000 00000</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="f-about">
+        <a href="index.html" class="f-logo" aria-label="Pravedh – Shaping What's Next">
+          <img src="images/logo.png" alt="Pravedh – Shaping What's Next">
+        </a>
+        <p>Pravedh Engineering Solutions delivers reliable, cost-effective and sustainable solar systems for homes, businesses and industries, with complete help on the PM Surya Ghar subsidy.</p>
+        <div class="f-social">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h2V5h-2.5C11.3 5 10 6.4 10 8.6V11H8v3h2v6h3v-6h2.2l.5-3H13V8.8c0-.5.2-.8 1-.8z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r=".6"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M10.5 9.5v5l4.2-2.5z"/></svg></a>
+          <a href="https://wa.me/910000000000" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M3.5 20.5l1.4-4.3A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.5c0 3 2.500 5.500 5.500 5.500l1-1.200-1.800-.9-.8.700a4 4 0 0 1-1.800-1.800l.7-.8-.9-1.800z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="f-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html#pm-surya-ghar">PM Surya Ghar</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h4>Our Solutions</h4>
+        <ul>
+          <li><a href="services.html#residential">Residential Solar</a></li>
+          <li><a href="services.html#commercial">Commercial Solar</a></li>
+          <li><a href="services.html#industrial">Industrial Solar</a></li>
+          <li><a href="services.html#installation">Solar Installation</a></li>
+          <li><a href="services.html#amc">AMC &amp; Maintenance</a></li>
+          <li><a href="index.html#pm-surya-ghar">Subsidy Assistance</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col f-contact">
+        <h4>Get In Touch</h4>
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            <span>Your street address,<br>Rajapalayam, Tamil Nadu</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+            <a href="tel:+910000000000">+91 00000 00000</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <span>Mon – Sat: 9:00 AM – 6:00 PM</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> Pravedh Engineering Solutions. All rights reserved.</p>
+      <p class="f-credit">Designed &amp; Developed by
+        <a href="https://beycan.in/" target="_blank" rel="noopener">BEYCAN Technologies Pvt Ltd</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="back-top" id="backTop" aria-label="Back to top">
+  <span><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* ===== nav + dropdown ===== */
+  const toggle = document.getElementById('menuToggle');
+  const nav = document.getElementById('nav');
+  if (toggle && nav) {
+    const dropdowns = nav.querySelectorAll('.dropdown');
+    function closeDropdowns(except) {
+      dropdowns.forEach(function (d) {
+        if (d !== except) {
+          d.classList.remove('open');
+          const b = d.querySelector('.dropdown-toggle');
+          if (b) b.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+    function closeNav() {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      closeDropdowns();
+    }
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      if (!open) closeDropdowns();
+    });
+    dropdowns.forEach(function (d) {
+      const btn = d.querySelector('.dropdown-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        closeDropdowns(d);
+        const open = d.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+      });
+    });
+    nav.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeNav); });
+    document.addEventListener('click', function (e) { if (!nav.contains(e.target)) closeNav(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeNav(); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 960) closeNav(); });
+  }
+
+  /* ===== project filter ===== */
+  const chips = document.querySelectorAll('.chip');
+  const cards = document.querySelectorAll('#projGrid .project-card');
+  const empty = document.getElementById('projEmpty');
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      const f = chip.dataset.filter;
+      chips.forEach(function (c) {
+        const on = c === chip;
+        c.classList.toggle('active', on);
+        c.setAttribute('aria-selected', on);
+      });
+      let shown = 0;
+      cards.forEach(function (card) {
+        const match = f === 'all' || card.dataset.cat === f;
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      if (empty) empty.hidden = shown !== 0;
+    });
+  });
+
+  /* ===== back to top ===== */
+  const backTop = document.getElementById('backTop');
+  if (backTop) {
+    window.addEventListener('scroll', function () {
+      backTop.classList.toggle('show', window.scrollY > 400);
+    }, { passive: true });
+    backTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ===== footer year ===== */
+  const y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+});
+</script>
+</body>
+</html>
